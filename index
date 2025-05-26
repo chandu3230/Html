@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="heading">
+        <h1>welcome to my web page</h1>
+        <h2 class="head">chandu</h2>
+        <p>this is a sample html document</p>
+        <img>https://unsplash.com/photos/red-rose-with-droplets-gcWd0ts4RCo</img>
+        <button class="button">get started</button>
+        </div>
+    </body>
+</html>
+......................................
+.heading {
+    color:brown
+}
+.button {
+    margin:40px;
+    padding:10px
+}
+.head {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+.bg {
+    background-color: lightblue;
+}
+...............................
