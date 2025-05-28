@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="happymeal.css">
+    </head>
+    <body>
+        <div class="heading">
+            <div class="card">
+                <h1>Happy Meals</h1>
+                <p>Discover the best foods over the 1,000 restaurants</p>
+                <button class="button">Book now</button>
+            </div>
+        </div>
+    </body>
+</html>
+....................................................
+.heading{
+    background-image:url(https://thumbs.dreamstime.com/b/food-buffet-top-view-restaurant-dish-plates-white-table-full-dishes-selection-background-145668925.jpg);
+    height:5vh;
+    width:300px;
+    text-align: center;
+    padding-top: 1000px;
+}
+.card{
+    background-color: orange;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+.button {
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: whitesmoke;
+}
