@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apj.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="color">
+    <h1>Popular Book</h1>
+    <div class="d-flex flex-row justify-content-first align-items-first rec style">
+        <img src="https://images.meesho.com/images/products/322046220/ujavc_512.webp">   
+        <div>  
+            <h5 class="d-flex flex-row justify-content-start align-items-start">Wings of fire</h5>
+            <p class="d-flex flex-row justify-content-start align-items-start"><strong>An Autography of Abdul Kalam</strong></p>
+            <p class="d-flex flex-row justify-content-start align-items-start">by Arun Tiwari</p>
+            <a href="apj1.html" class="btn btn-primary">Read Now</a>
+        </div>
+    </div>
+    <h3>Recommended Books</h3>
+    <div class="d-flex flex-row justify-content-first align-items-first rec1 style">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy7BlZHqhAtkLDJwqt9FAK3RhMbPtmTgQcuw&s">   
+        <div>  
+            <h5 class="d-flex flex-row justify-content-start align-items-start">The 3 mistakes of my life</h5>
+            <p class="d-flex flex-row justify-content-start align-items-start"><strong>Indian author</strong></p>
+            <p class="d-flex flex-row justify-content-start align-items-start">by Chetan Bhagat</p>
+            <a href="apj3.html" class="btn btn-primary">Read Now</a>
+        </div>
+    </div>
+     <div class="d-flex flex-row justify-content-first align-items-first rec1 ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LqNSKyxguuOY9eoO1pdI-0WzxwGIGYf1RQ&s">   
+        <div>  
+            <h5 class="d-flex flex-row justify-content-start align-items-start">Harry Potter</h5>
+            <p class="d-flex flex-row justify-content-start align-items-start"><strong>and the Sorcerer's Stone</strong></p>
+            <p class="d-flex flex-row justify-content-start align-items-start">by J.K.Rowling</p>
+            <a href="apj2.html" class="btn btn-primary">Read Now</a>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
+.......................................................................................................
+.rec {
+    background-color: white;
+    width: 70vh;
+    height: 25vh;
+    border: 2px solid gainsboro;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+}
+img {
+    width: 200px;
+    height: 25vh;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.rec1 {
+    width: 70vh;
+    height: 25vh;
+}
+.style {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.color {
+    background-color: black;
+    color: white;
+    height: 700px;
+    width: 550px;
+    padding: 10px;
+    margin:auto;
+
+}
